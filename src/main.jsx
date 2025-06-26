@@ -25,11 +25,7 @@ const router = createBrowserRouter([
 
     ]
   },
-  
-  {
-    path:'/auth/sign-in',
-    element:<SignInPage/>
-  }
+ 
 ])
 
 createRoot(document.getElementById('root')).render(
